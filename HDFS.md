@@ -1,6 +1,8 @@
 # Hadoop deployment plan (HDFS part)
 * Configure a quorum of journal nodes
 * Configure name nodes
+* Configure ZooKeeper
+* Configure ZKFC
 * Configure data nodes
 ## How to configure a quorum of journal nodes
 
