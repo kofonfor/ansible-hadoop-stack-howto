@@ -1,4 +1,4 @@
-# Hadoop deployment plan
+# Hadoop deployment plan (HDFS part)
 * Configure a quorum of journal nodes
 * Configure name nodes
 * Configure data nodes
