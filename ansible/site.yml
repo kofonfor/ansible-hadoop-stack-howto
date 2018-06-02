@@ -1,0 +1,49 @@
+- hosts: all
+  become: yes
+  roles:
+  - role: hosts-nodes
+  - role: hadoop
+  - role: hbase
+  - role: phoenix
+  - role: apache-spark
+
+- hosts: hdfs-journalnodes
+  become: yes
+  roles:
+  - role: hdfs-journalnode
+
+- hosts: zookeepers
+  become: yes
+  roles:
+  - { role: zookeeper, tags: ["zookeeper"] }
+
+- hosts: hdfs-namenodes
+  become: yes
+  roles:
+  - role: hdfs-namenode
+  - role: hdfs-zkfc
+
+- hosts: hdfs-datanodes
+  become: yes
+  roles:
+  - role: hdfs-datanode
+
+- hosts: hbase-masters
+  become: yes
+  roles:
+  - role: hbase-master
+
+- hosts: hbase-regionservers
+  become: yes
+  roles:
+  - role: hbase-regionserver
+
+- hosts: yarn-resourcemanager
+  become: yes
+  roles:
+  - { role: yarn-resourcemanager, hadoop_version: "2.7.6", tags: [ "yarn" ] }
+
+- hosts: yarn-nodemanagers
+  become: yes
+  roles:
+  - { role: yarn-nodemanager, hadoop_version: "2.7.6", tags: [ "yarn" ] }

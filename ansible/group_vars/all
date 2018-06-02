@@ -1,0 +1,17 @@
+yarn_user: hadoop
+hdfs_nameservice_id: lab01
+zookeeper_server_1: 172.16.147.2
+zookeeper_server_2: 172.16.147.3
+zookeeper_server_3: 172.16.147.4
+zookeeper_quorum: 172.16.147.2,172.16.147.3,172.16.147.4
+namenode_1: 172.16.147.2
+namenode_2: 172.16.147.3
+journalnode_1: 172.16.147.2
+journalnode_2: 172.16.147.3
+journalnode_3: 172.16.147.4
+hbase_jmx_monitorpass: 1111111111
+hbase_jmx_controlpass: 222222dddd
+hdfs_hosts_group_name: all
+yarn_resourcemanager: 172.16.147.2
+yarn_timelineservice_hostname: hbase1
+jobhistory_host: 172.16.147.2

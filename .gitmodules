@@ -1,0 +1,54 @@
+[submodule "ansible/roles/hadoop"]
+	path = ansible/roles/hadoop
+	url = https://github.com/kofonfor/ansible-role-hadoop.git
+[submodule "ansible/roles/hbase"]
+	path = ansible/roles/hbase
+	url = https://github.com/kofonfor/ansible-role-hbase.git
+[submodule "ansible/roles/hbase-master"]
+	path = ansible/roles/hbase-master
+	url = https://github.com/kofonfor/ansible-role-hbase-master.git
+[submodule "ansible/roles/hbase-regionserver"]
+	path = ansible/roles/hbase-regionserver
+	url = https://github.com/kofonfor/ansible-role-hbase-regionserver.git
+[submodule "ansible/roles/phoenix"]
+	path = ansible/roles/phoenix
+	url = https://github.com/kofonfor/ansible-role-phoenix.git
+[submodule "ansible/roles/apache-spark"]
+	path = ansible/roles/apache-spark
+	url = https://github.com/kofonfor/ansible-role-apache-spark.git
+[submodule "ansible/roles/yarn-resourcemanager"]
+	path = ansible/roles/yarn-resourcemanager
+	url = https://github.com/kofonfor/ansible-role-yarn-resourcemanager.git
+[submodule "ansible/roles/zookeeper"]
+	path = ansible/roles/zookeeper
+	url = https://github.com/kofonfor/ansible-role-zookeeper.git
+[submodule "ansible/roles/java"]
+	path = ansible/roles/java
+	url = https://github.com/kofonfor/ansible-role-java.git
+[submodule "ansible/roles/oracle-jdk"]
+	path = ansible/roles/oracle-jdk
+	url = https://github.com/kofonfor/ansible-role-oracle-jdk.git
+[submodule "ansible/roles/ntp"]
+	path = ansible/roles/ntp
+	url = https://github.com/kofonfor/ansible-role-ntp.git
+[submodule "ansible/roles/hdfs-journalnode"]
+	path = ansible/roles/hdfs-journalnode
+	url = https://github.com/kofonfor/ansible-role-hdfs-journalnode.git
+[submodule "ansible/roles/runit"]
+	path = ansible/roles/runit
+	url = https://github.com/kofonfor/ansible-role-runit.git
+[submodule "ansible/roles/hdfs-namenode"]
+	path = ansible/roles/hdfs-namenode
+	url = https://github.com/kofonfor/ansible-role-hdfs-namenode.git
+[submodule "ansible/roles/hdfs-zkfc"]
+	path = ansible/roles/hdfs-zkfc
+	url = https://github.com/kofonfor/ansible-role-hdfs-zkfc.git
+[submodule "ansible/roles/hdfs-datanode"]
+	path = ansible/roles/hdfs-datanode
+	url = https://github.com/kofonfor/ansible-role-hdfs-datanode.git
+[submodule "ansible/roles/hbase-lzo"]
+	path = ansible/roles/hbase-lzo
+	url = https://github.com/kofonfor/ansible-role-hbase-lzo.git
+[submodule "ansible/roles/yarn-nodemanager"]
+	path = ansible/roles/yarn-nodemanager
+	url = https://github.com/kofonfor/ansible-role-yarn-nodemanager.git

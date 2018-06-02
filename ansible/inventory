@@ -1,0 +1,56 @@
+[hbase1]
+hbase1 ansible_host=172.16.147.2
+
+[hbase2]
+hbase2 ansible_host=172.16.147.3
+
+[hbase3]
+hbase3 ansible_host=172.16.147.4
+
+[hbase4]
+hbase4 ansible_host=172.16.147.5
+
+[hbase5]
+hbase5 ansible_host=172.16.147.6
+
+[hdfs-journalnodes:children]
+hbase1
+hbase2
+hbase3
+
+[hdfs-namenodes:children]
+hbase1
+hbase2
+
+[hdfs-datanodes:children]
+hbase1
+hbase2
+hbase3
+hbase4
+hbase5
+
+[hbase-masters:children]
+hbase1
+hbase2
+
+[hbase-regionservers:children]
+hbase1
+hbase2
+hbase3
+hbase4
+hbase5
+
+[yarn-resourcemanager:children]
+hbase1
+
+[yarn-nodemanagers:children]
+hbase1
+hbase2
+hbase3
+hbase4
+hbase5
+
+[zookeepers:children]
+hbase1
+hbase2
+hbase3
